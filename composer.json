@@ -14,11 +14,15 @@
         {
             "type": "vcs",
             "url": "git@github.com:iterative-it/dbal.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:iterative-it/coding-standard.git"
         }
     ],
     "require": {
         "php": "^7.0",
-        "iterative-it/dbal": "~2.6.4",
+        "iterative-it/dbal": "2.6.4",
         "symfony/yaml": "~3.3|^4.0",
         "symfony/console": "~3.3|^4.0",
         "ocramius/proxy-manager": "^1.0|^2.0"
@@ -26,7 +30,7 @@
     "require-dev": {
         "doctrine/orm": "~2.5",
         "phpunit/phpunit": "~6.2",
-        "doctrine/coding-standard": "^1.0",
+        "iterative-it/coding-standard": "1.0.1",
         "jdorn/sql-formatter": "~1.1",
         "mikey179/vfsStream": "^1.6",
         "squizlabs/php_codesniffer": "^3.0"
